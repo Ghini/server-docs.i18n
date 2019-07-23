@@ -1,0 +1,813 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 bauble.classic & 2015-2017 ghini.desktop
+# contributors
+# This file is distributed under the same license as the Ghini package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ghini 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-22 20:47-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../index.rst:9
+msgid "Contents:"
+msgstr ""
+
+#: ../../index.rst:7
+msgid "Welcome to taxasoft-ghini's documentation!"
+msgstr ""
+
+#: ../../index.rst:20
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../index.rst:22
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../index.rst:23
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../index.rst:24
+msgid ":ref:`search`"
+msgstr ""
+
+#: ../../introduction.rst:2
+msgid "introduction"
+msgstr ""
+
+#: ../../introduction.rst:4
+msgid ""
+"Ghini server is a AGPL software, aiming at letting professional and "
+"amateur botanists share knowledge, in the form of plant images, "
+"localization of plant observations, taxonomic identifications."
+msgstr ""
+
+#: ../../introduction.rst:8
+msgid ""
+"Ghini server follows established best practices for botanical "
+"collections, so that it can successfully be used by botanical "
+"institutions needing a strong database foundation."
+msgstr ""
+
+#: ../../introduction.rst:11
+msgid ""
+"The combination ghini.server + ghini.web is the natural successor of "
+"ghini.desktop, a GPL desktop program.  Even if the interface are very "
+"similar, they are based on different technologies, and are not compatible"
+" at the database level.  There might come a ghini.desktop version "
+"compatible with ghini.server."
+msgstr ""
+
+#: ../../introduction.rst:17
+msgid "serving"
+msgstr ""
+
+#: ../../introduction.rst:19
+msgid ""
+"Installation of a ghini.server site amounts to installing a standard "
+"django service.  This is a rather technical task, so please either look "
+"for and refer to the corresponding documentation, or ask for advise and "
+"support."
+msgstr ""
+
+#: ../../introduction.rst:24
+msgid "fallback"
+msgstr ""
+
+#: ../../introduction.rst:26
+msgid "Please refer to ghini.desktop"
+msgstr ""
+
+#: ../../introduction.rst:29
+msgid "showcasing"
+msgstr ""
+
+#: ../../introduction.rst:31
+msgid ""
+"Ghini server's initial goal is to showcase itself in the form of "
+"geographic botanical collections.  If you have a use case and want to "
+"participate, please contact the Ghini team. As of now, there's the "
+"following projects:"
+msgstr ""
+
+#: ../../introduction.rst:35
+msgid "`cuaderno <https://cuaderno.ghini.me>`_, a botanist's collection handbook."
+msgstr ""
+
+#: ../../introduction.rst:36
+msgid ""
+"`almaghreb <https://almaghreb.ghini.me>`_, wild plants in the Atlas "
+"Region."
+msgstr ""
+
+#: ../../introduction.rst:38
+msgid ""
+"`tanager <https://tanager.ghini.me>`_, a small privately held botanical "
+"garden.  The data in the database is by far not the complete garden's "
+"collection."
+msgstr ""
+
+#: ../../introduction.rst:40
+msgid "`caribe <https://caribe.ghini.me>`_, wild plants in the Caribbean Area."
+msgstr ""
+
+#: ../../introduction.rst:42
+msgid ""
+"Participants get access to ghini's editing facilities and the django "
+"admin interface to the database, while anonymous visitors can browse and "
+"query the data from the ghini interface."
+msgstr ""
+
+#: ../../participate.rst:2
+msgid "participating"
+msgstr ""
+
+#: ../../participate.rst:4
+msgid "This page explains how to contribute data to a running ghini site."
+msgstr ""
+
+#: ../../participate.rst:7
+msgid "your account"
+msgstr ""
+
+#: ../../participate.rst:9
+msgid ""
+"You need an account for the site, it needs to be enabled, and to make you"
+" part of the staff. You do not need superpowers to contribute data."
+msgstr ""
+
+#: ../../participate.rst:14
+msgid ""
+"When logged in as staff member, you will see the *Insert* menu next to "
+"the Ghini icon, before the *Tools* menu,"
+msgstr ""
+
+#: ../../participate.rst:19
+msgid ""
+"moreover, in the Results page, right-clicking on any results row will "
+"show the context menu associated to the row type."
+msgstr ""
+
+#: ../../participate.rst:24
+msgid ""
+"If you do not see these, you are being handled by the software as a "
+"visitor, and you need to logout and log back in with your full "
+"permissions."
+msgstr ""
+
+#: ../../participate.rst:28
+msgid "organize your pictures"
+msgstr ""
+
+#: ../../participate.rst:30
+msgid ""
+"The software requires that you organize your plant images by physical "
+"plant, and by accession.  Please make sure your data follows this order "
+"before you start."
+msgstr ""
+
+#: ../../participate.rst:33
+msgid ""
+"A running definition of a database accession for plants photographed in "
+"the wild, it is a group of nearby plants, clearly of the same species and"
+" variety, very likely of the same age, and clearly belonging to the same "
+"population.  Decide for yourself if you want to use the term accession as"
+" a synonym for population."
+msgstr ""
+
+#: ../../participate.rst:38
+msgid ""
+"A running definition of a database plant for the same case, that would be"
+" a group of plants within the same accession, difficult to separate from "
+"one another.  They all share the same geographic coordinates, and you can"
+" provide a reasonable estimate of the number of individual plants "
+"composing the group."
+msgstr ""
+
+#: ../../participate.rst:44
+msgid "bulk inserts"
+msgstr ""
+
+#: ../../participate.rst:46
+msgid ""
+"If you have a large amount of accessions that you want to document with "
+"plant images, you may request a bulk insertion.  Please write a friendly "
+"email to ``Mario Frasca <ghini@anche.no>``, stating your needs.  It makes"
+" sense if you have more than, say, twenty accessions."
+msgstr ""
+
+#: ../../participate.rst:52
+msgid "adding images"
+msgstr ""
+
+#: ../../participate.rst:54
+msgid ""
+"The basic logic is: first have all your accessions in place, which you "
+"either do manually, or with a request for bulk insertion, then navigate "
+"to `the URL for adding plant images "
+"<https://almaghreb.ghini.me/admin/garden/plantimage/add/>`_."
+msgstr ""
+
+#: ../../participate.rst:58
+msgid "You will be presented with this form:"
+msgstr ""
+
+#: ../../participate.rst:62
+msgid ""
+"In this form you basically repeat: choosing a plant from the database, "
+"choosing a picture from your file system, then click on one of the three "
+"*Save* buttons:"
+msgstr ""
+
+#: ../../participate.rst:67
+msgid ""
+"If you are adding an image for a plant already represented in the "
+"database, simply start typing the plant accession number, and the "
+"software will present you the plants matching the text you are typing.  "
+"Each time the image is relative to a new plant, you need to add the "
+"database object that describes the plant in question.  You do so by "
+"clicking on the ``+`` button next to the plant chooser widget."
+msgstr ""
+
+#: ../../participate.rst:73
+msgid "This will open a new window,"
+msgstr ""
+
+#: ../../participate.rst:77
+msgid ""
+"Here you choose your **accession**, indicate a numerical sequential value"
+" for the plant **code** within the accession (you need to so manually), "
+"select or add a plant **location** (it would be the name of the area for "
+"your observations), provide an estimate of the **quantity** of individual"
+" plants in the plant group, and use the **geometry** map to indicate an "
+"approximate plant position.  You do so by activating the *draw a marker* "
+"widget, then clicking on the approximate spot in the map.  Zoom in or "
+"zoom out, and peruse the other widgets as necessary."
+msgstr ""
+
+#: ../../participate.rst:85
+msgid "Do not forget to *Save* your changes."
+msgstr ""
+
+#: ../../participate.rst:87
+msgid ""
+"Back to your Plant Image insertion window, browse to your image, confirm "
+"by ``save`` or ``save and add another``."
+msgstr ""
+
+#: ../../searching.rst:2
+msgid "searching"
+msgstr ""
+
+#: ../../searching.rst:5
+msgid ""
+"The search strategies implemented by ghini.server and exposed through "
+"ghini.web:"
+msgstr ""
+
+#: ../../searching.rst
+msgid "single field"
+msgstr ""
+
+#: ../../searching.rst:7
+msgid "``<DOMAIN>`` . ``<field>`` ``<op>`` ``<INTEGER>``"
+msgstr ""
+
+#: ../../searching.rst:9
+msgid "Filter, based on the value of a single field of the specified domain."
+msgstr ""
+
+#: ../../searching.rst
+msgid "domain"
+msgstr ""
+
+#: ../../searching.rst:12
+msgid "``<DOMAIN>`` ``<op>`` ``<TERM>``"
+msgstr ""
+
+#: ../../searching.rst:14
+msgid ""
+"Filter, based on the value of the default selection fields of the "
+"specified domain.  It can be seen as a shortcut to the previous, but "
+"where the match can be on multiple fields."
+msgstr ""
+
+#: ../../searching.rst
+msgid "terms"
+msgstr ""
+
+#: ../../searching.rst:18
+msgid "``<TERMS>``"
+msgstr ""
+
+#: ../../searching.rst:20
+msgid ""
+"Filter, based on the value of the default selection fields of any of the "
+"search domains.  ``TERMS`` is a space-separated list of values.  Again it"
+" can be seen as a shortcut to the previous, but where the match can be on"
+" any domain.  The filter succeeds if all the terms match.  If prefixed "
+"with the optional keyword ``or``, the filter succeeds if any one of the "
+"terms matches."
+msgstr ""
+
+#: ../../searching.rst
+msgid "sql-like"
+msgstr ""
+
+#: ../../searching.rst:26
+msgid "``<DOMAIN>`` where ``<COMPLEX-QUERY>``"
+msgstr ""
+
+#: ../../searching.rst:28
+msgid ""
+"This is the most generic and powerful search.  You give a search domain, "
+"then specify an expression to be matched."
+msgstr ""
+
+#: ../../searching.rst:31
+msgid ""
+"Expressions are composed of boolean tests on fields, either of the domain"
+" or of a connected domain (think of ``accession.plants.images``, or "
+"``plant.accession.verifications.taxon.epithet``), tested with an operator"
+" (think of ``=``, ``like``, ``contains``, against values (think of a "
+"string, or a number).  Boolean tests can be combined with ``and``, "
+"``or``, ``not``, and parentheses."
+msgstr ""
+
+#: ../../searching.rst
+msgid "depending"
+msgstr ""
+
+#: ../../searching.rst:38
+msgid "``<query>`` | depending"
+msgstr ""
+
+#: ../../searching.rst:40
+msgid ""
+"On any of the previous search strategies, you can append the query "
+"modifier ``| depending``.  This changes the resulting query-set, applying"
+" the *depending* function to each of the elements in the original result."
+msgstr ""
+
+#: ../../searching.rst:45
+msgid ""
+"Logged in users can use the ghini.server API to run these queries, or use"
+" teh ghini.web interface to enter them and have the results nicely "
+"organized in the various ghini.web tabs."
+msgstr ""
+
+#: ../../technical.rst:2
+msgid "technical documentation"
+msgstr ""
+
+#: ../../technical.rst:5
+msgid "rest-api"
+msgstr ""
+
+#: ../../technical.rst:7
+msgid "We have a main api for interacting with the database."
+msgstr ""
+
+#: ../../technical.rst:9
+msgid ""
+"Each object has its URL, which really identifies the object (e.g.: plant "
+"#1 for accession 101 in year 2001)::"
+msgstr ""
+
+#: ../../technical.rst:14
+msgid ""
+"Removing the object's trailing identificator from the URL gives the class"
+" URL (e.g.: the plants collection)::"
+msgstr ""
+
+#: ../../technical.rst:19
+msgid ""
+"The trailing slash is part of the URL, but the server will add it if it's"
+" missing."
+msgstr ""
+
+#: ../../technical.rst:22
+msgid "**collections**"
+msgstr ""
+
+#: ../../technical.rst:24
+msgid ""
+"We organized the objects in three sections: ``taxonomy``, ``collection``,"
+" ``garden``.  There might come some day a ``herbarium`` or ``seedbank`` "
+"section, or we may reorganize in fewer sections, we will see.  As of now,"
+" we have these collections::"
+msgstr ""
+
+#: ../../technical.rst:38
+msgid ""
+"Verifications and Plants only make sense in combination with an "
+"accession, so their collections are behind an accession code.  Same for "
+"Propagations, which only make sense in relation with the mother plant."
+msgstr ""
+
+#: ../../technical.rst:42
+msgid "**individual objects**"
+msgstr ""
+
+#: ../../technical.rst:44
+msgid ""
+"Append a primary key to a collection URL, and you get the URL for an "
+"individual within the collection."
+msgstr ""
+
+#: ../../technical.rst:47
+msgid ""
+"As far as their URLs are concerned, ``rank``, ``taxon``, ``contact`` have"
+" a primary key which is a sequential number, with no semantics."
+msgstr ""
+
+#: ../../technical.rst:50
+msgid ""
+"Accessions have their own accession code, Plants have a sequential plant "
+"code within the Accession they belong to, Verifications also have a "
+"unique sequential number within the Accession they describe.  "
+"Propagations have a sequential number within their mother Plant."
+msgstr ""
+
+#: ../../technical.rst:57
+msgid ""
+"If we generalize the database to model more than one garden, we will need"
+" to associate accessions to gardens, we will probably identify gardens "
+"with a stub, and will prepend accession urls with a garden stub code.  As"
+" of now, we only deal with a single garden."
+msgstr ""
+
+#: ../../technical.rst:62
+msgid "**GET and her sisters**"
+msgstr ""
+
+#: ../../technical.rst:64
+msgid ""
+"Collection URLs implement the ``GET`` and ``POST`` verbs, respectively "
+"for getting the whole collection (or a selection thereof), and for adding"
+" an individual object to the collection.  These URLs get a ``-list`` "
+"suffix in their Django name."
+msgstr ""
+
+#: ../../technical.rst:69
+msgid ""
+"Individual URLs implement the ``GET``, ``PUT`` and ``DELETE`` verbs, with"
+" their obvious meanings, applying to the specific individual only.  These"
+" URLs get a ``-detail`` suffix in their Django name."
+msgstr ""
+
+#: ../../technical.rst:73
+msgid "**more URLs**"
+msgstr ""
+
+#: ../../technical.rst:75
+msgid ""
+"Collections also have an URL for the empty html form, to be populated by "
+"the user and posted to the server.  The corresponding Django names have "
+"suffix ``-post-form``."
+msgstr ""
+
+#: ../../technical.rst:79
+msgid "Individual objects have more entry points, respectively for:"
+msgstr ""
+
+#: ../../technical.rst:81
+msgid "The populated html form (django suffix ``-form``)"
+msgstr ""
+
+#: ../../technical.rst:82
+msgid "A json data dictionary for the infobox (django suffix ``-infobox``)"
+msgstr ""
+
+#: ../../technical.rst:83
+msgid ""
+"A dictionary with several representations for the same object (django "
+"suffix ``-markup``)"
+msgstr ""
+
+#: ../../technical.rst:84
+msgid ""
+"A json data dictionary with *depending* objects, and the definition of "
+"the concept depends on the object.  A Location considers the plants "
+"located there as its depending objects, a Taxon its subtaxa **and** the "
+"accessions verified to it.  The result has the same shape as the "
+"dictionary returned by a search.  (django suffix ``-depending``)"
+msgstr ""
+
+#: ../../technical.rst:89
+msgid "A rendered html page with object pictures (django suffix ``-carousel``)"
+msgstr ""
+
+#: ../../technical.rst:92
+msgid "**search API**"
+msgstr ""
+
+#: ../../technical.rst:94
+msgid ""
+"``filter/`` and ``get-filter-tokens/`` are the main query api entry "
+"point. Both expect a ``q`` parameter, which they interprets according to "
+"several search strategies.  Search strategies are described in some "
+"detail in the user manual."
+msgstr ""
+
+#: ../../technical.rst:99
+msgid ""
+"The result of a ``get-filter-tokens/`` request is a dictionary, where the"
+" keys are the names of the collection in the result, and the values are "
+"*tokens*. You get as many tokens as the non-empty collections matching "
+"your query."
+msgstr ""
+
+#: ../../technical.rst:103
+msgid ""
+"The next step on the client side is to enter a loop to *cash* your "
+"*tokens*. Each invocation of the ``cash-token/<token>/`` returns you a "
+"dictionary with three entries:"
+msgstr ""
+
+#: ../../technical.rst:107
+msgid "``chunk`` holds the list of items."
+msgstr ""
+
+#: ../../technical.rst:108
+msgid ""
+"``expect`` specifies the length of the expected complete set.  One "
+"possible use is to update a progress bar."
+msgstr ""
+
+#: ../../technical.rst:110
+msgid "``done`` tells you whether this was the last chunk."
+msgstr ""
+
+#: ../../technical.rst:112
+msgid ""
+"Attempting to cash a token which was already paid in full will provide "
+"the empty result.  Same will happen if you attempt to cash an invalid "
+"token.  The empty result is ``expect:0``, ``done:True``, ``chunk:[]``."
+msgstr ""
+
+#: ../../technical.rst:116
+msgid ""
+"If you are somewhat too quick in cashing a new token, the ``expect`` "
+"value could still be a large hard-coded value.  The correct value is "
+"computed in a separate thread, so the server can provide all tokens as "
+"soon as possible."
+msgstr ""
+
+#: ../../technical.rst:120
+msgid ""
+"Tokens will expire after some delay in cashing them.  This prevents "
+"queries to stay active in the system while not any more relevant."
+msgstr ""
+
+#: ../../technical.rst:123
+msgid ""
+"For queries where you expect a small result set (less than ~70 elements),"
+" you can may prefer the ``filter/`` entry point.  ``filter`` short-"
+"circuits this process, providing the concrete result at once, in a "
+"dictionary having the same external structure as the ``get-filter-"
+"tokens`` result, one list of objects per non-empty collection, and values"
+" as the above ``chunk`` lists."
+msgstr ""
+
+#: ../../technical.rst:129
+msgid ""
+"One more entry point in this group is ``count/``, it accepts the same "
+"parameters as ``filter`` and ``get-filter-tokens``, and returns a "
+"dictionary with same external structure.  The values in this case are the"
+" matching query ``count()``, plus a grand total under the key "
+"``__total__``.  You can use this to decide whether to use ``filter`` or "
+"the chunked approach ``get-filter-tokens``."
+msgstr ""
+
+#: ../../technical.rst:136
+msgid ""
+"On the server side, executing a search corresponds to constructing one or"
+" more queryset.  Each element in the queryset is subsequently converted "
+"into a dictionary, with the structure:"
+msgstr ""
+
+#: ../../technical.rst
+msgid "inline"
+msgstr ""
+
+#: ../../technical.rst:140
+msgid "The string shown in the result.  It may contain html tags."
+msgstr ""
+
+#: ../../technical.rst
+msgid "twolines"
+msgstr ""
+
+#: ../../technical.rst:141
+msgid "Three elements to be shown in different parts of the client."
+msgstr ""
+
+#: ../../technical.rst
+msgid "infobox_url"
+msgstr ""
+
+#: ../../technical.rst:142
+msgid "The url to get the corresponding infobox."
+msgstr ""
+
+#: ../../technical.rst:144
+msgid ""
+"The ``inline`` and ``twolines`` entries are meant to be included in the "
+"results box.  The ``infobox_url`` provides quick access to the URL where "
+"we will get the infobox data, but you can just replace the trailing "
+"*infobox/* part and replace with whatever other valid suffix.  at the "
+"moment of writing, the URLs implemented are *form/*, *markup/*, "
+"*depending/*."
+msgstr ""
+
+#: ../../technical.rst:151
+msgid "importing from ghini.desktop"
+msgstr ""
+
+#: ../../technical.rst:153
+msgid ""
+"Please consider this work in progress, try out the instructions, and be "
+"prepared to ask for help or to open an issue if the present instructions "
+"do not work."
+msgstr ""
+
+#: ../../technical.rst:157
+msgid ""
+"First of all: taxasoft-ghini is not complete, not yet.  The current goal "
+"is to have it do something useful, and to be visible on-line, it does not"
+" (yet) substitute ghini.desktop.  Not at all.  Expect things to be "
+"exciting, but do not expect things to work out of the box."
+msgstr ""
+
+#: ../../technical.rst:162
+msgid ""
+"Got this?  Good, now let's see how to copy your ghini.desktop collection "
+"into taxasoft-ghini!"
+msgstr ""
+
+#: ../../technical.rst:166
+msgid "from ghini.desktop"
+msgstr ""
+
+#: ../../technical.rst:168
+msgid "open ghini-1.0"
+msgstr ""
+
+#: ../../technical.rst:170
+msgid "export your (complete) data to csv."
+msgstr ""
+
+#: ../../technical.rst:172 ../../technical.rst:180 ../../technical.rst:204
+msgid "close ghini"
+msgstr ""
+
+#: ../../technical.rst:174
+msgid "open ghini-1.0 again,"
+msgstr ""
+
+#: ../../technical.rst:176
+msgid "create a new sqlite3 connection,"
+msgstr ""
+
+#: ../../technical.rst:177
+msgid "let ghini create the database."
+msgstr ""
+
+#: ../../technical.rst:178
+msgid "import the data, this will again initialize the database."
+msgstr ""
+
+#: ../../technical.rst:182
+msgid ""
+"the result of the above steps is an expendable sqlite3 database: this way"
+" whatever we do on it, it has zero impact on your original data."
+msgstr ""
+
+#: ../../technical.rst:185
+msgid ""
+"remove all taxonomic information that is not used.  we do this straight "
+"on the expendable database::"
+msgstr ""
+
+#: ../../technical.rst:194
+msgid "consider removing history too, it's not imported anyway::"
+msgstr ""
+
+#: ../../technical.rst:198
+msgid "open ghini.desktop-1.0"
+msgstr ""
+
+#: ../../technical.rst:200
+msgid "export your (reduced) data to csv."
+msgstr ""
+
+#: ../../technical.rst:202
+msgid "this will take a fraction of the time for the previous export."
+msgstr ""
+
+#: ../../technical.rst:207
+msgid "now to taxasoft-ghini"
+msgstr ""
+
+#: ../../technical.rst:209
+msgid "enter the directory of your check-out;"
+msgstr ""
+
+#: ../../technical.rst:210
+msgid "activate the virtual environment;"
+msgstr ""
+
+#: ../../technical.rst:211
+msgid "move any previous database out of the way;"
+msgstr ""
+
+#: ../../technical.rst:212
+msgid "create a new database and initialize it::"
+msgstr ""
+
+#: ../../technical.rst:216
+msgid ""
+"consider whether you also want the intermediate taxa, between ranks "
+"familia and genus.  since importing this information takes rather long, "
+"it is not included in the 'migration' command.  if you want this data, "
+"you must request the import explicitly, with::"
+msgstr ""
+
+#: ../../technical.rst:223
+msgid ""
+"have something else to do in the meanwhile, this will take no less than "
+"one full hour.  on my laptop, writing to a sqlite3 database, it lasts 2 "
+"hours."
+msgstr ""
+
+#: ../../technical.rst:227
+msgid ""
+"if you're in a hurry, ask for a partial genus import, limiting to the "
+"genera in your trimmed database::"
+msgstr ""
+
+#: ../../technical.rst:232
+msgid ""
+"you can repeat the command without filtering, whenever you know you're "
+"not going to use the database for a couple of hours."
+msgstr ""
+
+#: ../../technical.rst:235
+msgid "run the command::"
+msgstr ""
+
+#: ../../technical.rst:239
+msgid ""
+"this will output as many ``+`` as the objects it inserted, as many ``.`` "
+"as the objects it already found in place.  for species, a ``v`` is added "
+"if the related species is at lower rank."
+msgstr ""
+
+#: ../../technical.rst:243
+msgid ""
+"the genus list in particular, that should be just a sequence of dots.  if"
+" it is not, it's because you're importing genera that were not created "
+"during the previous steps.  that's clearly not good and you should review"
+" your data."
+msgstr ""
+
+#: ../../technical.rst:248
+msgid ""
+"the opposite goes for the species list: remember that with ghini reloaded"
+" fictive species are not any more needed.  A dot tells you that the "
+"corresponding taxon was found in the database, at some higher rank."
+msgstr ""
+
+#: ../../technical.rst:252
+msgid ""
+"it is normal that importing accessions takes longer: for each object we "
+"are creating not only the accession but also the verificaiton object that"
+" links the accession to the corresponding taxon."
+msgstr ""
+
+#: ../../technical.rst:256
+msgid "create your superuser::"
+msgstr ""
+
+#: ../../technical.rst:260
+msgid "run your server::"
+msgstr ""
+
+#: ../../technical.rst:264
+msgid ""
+"I'm sure there will be errors.  please open issues about them, and if you"
+" have a solution, propose it."
+msgstr ""
+

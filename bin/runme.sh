@@ -27,10 +27,17 @@ echo '--------------------------------------------------------------------------
 make gettext
 echo "update the centralised doc.pot --- step two and three"
 echo '--------------------------------------------------------------------------'
-msgcat _build/locale/*.pot | msggrep --msgid --file not_to_be_translated.txt --invert-match -o _build/locale-merged/doc.pot
+mkdir -p _build/locale-merged
+if [ -f not_to_be_translated.txt ]
+then
+    msgcat _build/locale/*.pot | msggrep --msgid --file not_to_be_translated.txt --invert-match -o _build/locale-merged/doc.pot
+else
+    msgcat _build/locale/*.pot > _build/locale-merged/doc.pot
+fi
 echo "done updating centralised doc.pot"
 echo '--------------------------------------------------------------------------'
 echo
+
 echo '=========================================================================='
 echo "update all LANGUAGE/doc.po files in CHECKOUTDIR/local/"
 echo '--------------------------------------------------------------------------'
@@ -41,6 +48,7 @@ echo "make sure we have all the symbolic links for po files"
 echo '--------------------------------------------------------------------------'
 for l in $LANGUAGES
 do
+    mkdir -p $CHECKOUTDIR/locale/$l/LC_MESSAGES/
     cd $CHECKOUTDIR/locale/$l/LC_MESSAGES/
     for i in $(find $CHECKOUTDIR/doc -maxdepth 1 -type f -name "*rst")
     do
@@ -56,20 +64,3 @@ echo
 echo '=========================================================================='
 echo "this is enough as far as weblate and readthedocs are concerned"
 echo '--------------------------------------------------------------------------'
-#################################################################
-echo press enter to continue with other stuff, or ^C to stop here
-read
-
-#################################################################
-# build translated documentation for all configured languages
-
-# 1) update mo files from symlinks to doc.po.
-sphinx-intl build
-
-# 2) use the updated mo files to build the local html files
-for i in $LANGUAGES
-do
-    make -e SPHINXOPTS="-D language='"$i"'" html
-    mkdir -p ../translated/$i
-    cp -a _build/html ../translated/$i
-done
