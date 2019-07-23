@@ -24,27 +24,15 @@ msgstr ""
 
 #: ../../index.rst:7
 msgid "Welcome to taxasoft-ghini's documentation!"
-msgstr ""
+msgstr "bienvenu chez ghini"
 
 #: ../../index.rst:20
 msgid "Indices and tables"
-msgstr ""
-
-#: ../../index.rst:22
-msgid ":ref:`genindex`"
-msgstr ""
-
-#: ../../index.rst:23
-msgid ":ref:`modindex`"
-msgstr ""
-
-#: ../../index.rst:24
-msgid ":ref:`search`"
-msgstr ""
+msgstr "Indices et tables"
 
 #: ../../introduction.rst:2
 msgid "introduction"
-msgstr ""
+msgstr "introduction"
 
 #: ../../introduction.rst:4
 msgid ""
@@ -52,6 +40,7 @@ msgid ""
 "amateur botanists share knowledge, in the form of plant images, "
 "localization of plant observations, taxonomic identifications."
 msgstr ""
+"Le serveur Ghini, ça c'est un logiciel AGPL, à l'aide des botanistes professionelles et non, pour partager information, en forme de images de plantes, localisation des observations, identifications taxonomique."
 
 #: ../../introduction.rst:8
 msgid ""
@@ -80,6 +69,7 @@ msgid ""
 "for and refer to the corresponding documentation, or ask for advise and "
 "support."
 msgstr ""
+"L'installation de un serveur ghini, s'agit d'une installation standard de logiciels django.  La tarea est un peu technique, puis il faut se réferer à la documentation correspondente, ou soliciter aide."
 
 #: ../../introduction.rst:24
 msgid "fallback"
@@ -110,6 +100,7 @@ msgid ""
 "`almaghreb <https://almaghreb.ghini.me>`_, wild plants in the Atlas "
 "Region."
 msgstr ""
+"`almaghreb <https://almaghreb.ghini.me>`_, plantes sauvages de la région du Atlas."
 
 #: ../../introduction.rst:38
 msgid ""
